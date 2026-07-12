@@ -1,0 +1,132 @@
+<style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#00FFFF;
+            background-image: url('foto3.JPEG');
+            background-size: cover;
+            background-color: #f0f0f0;
+            padding:30px;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+        }
+
+        .title{
+            text-align:center;
+            margin-bottom:30px;
+            color:#00FFFF;
+        }
+
+        .card{
+            height: auto;
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            margin-bottom:30px;
+        }
+
+        .card h2{
+            margin-bottom:20px;
+            color:#00FFFF;
+        }
+
+        .form-group{
+            margin-bottom:15px;
+        }
+
+        label{
+            display:block;
+            margin-bottom:5px;
+            font-weight:bold;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            outline:none;
+        }
+
+        input:focus{
+            border-color:#00FFFF;
+        }
+
+        .button-group{
+            margin-top:20px;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            color:black;
+            font-weight:bold;
+            margin-right:10px;
+        }
+
+        .btn-simpan{
+            background:skyblue;
+        }
+
+        .btn-ubah{
+            background:skyblue;
+        }
+
+        .btn-tampilkan{
+            background:#87CEEB;
+        }
+
+        .btn-hapus{
+            background:skyblue;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        table th{
+            background:#007bff;
+            color:white;
+            padding:12px;
+        }
+
+        table td{
+            padding:10px;
+            border:1px solid #ccc;
+            text-align:center;
+        }
+
+        table tr:nth-child(even){
+            background:#00FFFF;
+        }
+
+        .pesan{
+            padding:15px;
+            background:#00FFFF;
+            color:#155724;
+            margin-bottom:20px;
+            border-radius:5px;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:30px;
+            color:#00FFFF;
+        }
+
+    </style>
+    
